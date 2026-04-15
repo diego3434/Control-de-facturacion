@@ -5,7 +5,6 @@ public class Vendedor {
     private int porcentajeComision;
     private int meta;
 
-    double comision1;
 
     public Vendedor(String nombre,String area,double montoVendido,int porcentajeComision,int meta){
         this.nombre = nombre;
@@ -63,7 +62,7 @@ public class Vendedor {
 
     }
     public void mensajeDesempeno(){
-
+        System.out.println("***********DATOS VENDEDOR********* ");
         System.out.println("El vendedor: "+nombre);
         System.out.println("de el area de: "+area);
         System.out.println("vendio un monto de:"+getMontoVendido());
